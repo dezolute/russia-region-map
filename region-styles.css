@@ -1,0 +1,299 @@
+/* Стили для страниц регионов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.region-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+p {
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    padding: 20px;
+    border-left: 5px solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.info-box strong {
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.back-btn, .map-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1em;
+}
+
+.back-btn:hover, .map-btn:hover {
+    transform: translateX(-3px);
+}
+
+.map-btn {
+    background: #4caf50;
+}
+
+.map-btn:hover {
+    background: #45a049;
+}
+
+/* Цветовые схемы для разных регионов */
+body.theme-blue {
+    background-color: #e3f2fd;
+}
+
+body.theme-blue h1,
+body.theme-blue h2 {
+    color: #1976d2;
+}
+
+body.theme-blue h1 {
+    border-bottom-color: #1976d2;
+}
+
+body.theme-blue .info-box {
+    background: #e3f2fd;
+    border-left-color: #1976d2;
+}
+
+body.theme-blue .info-box strong {
+    color: #1976d2;
+}
+
+body.theme-blue .back-btn {
+    background: #1976d2;
+}
+
+body.theme-blue .back-btn:hover {
+    background: #1565c0;
+}
+
+body.theme-orange {
+    background-color: #fff3e0;
+}
+
+body.theme-orange h1,
+body.theme-orange h2 {
+    color: #ff6f00;
+}
+
+body.theme-orange h1 {
+    border-bottom-color: #ff6f00;
+}
+
+body.theme-orange .info-box {
+    background: #fff3e0;
+    border-left-color: #ff6f00;
+}
+
+body.theme-orange .info-box strong {
+    color: #ff6f00;
+}
+
+body.theme-orange .back-btn {
+    background: #ff6f00;
+}
+
+body.theme-orange .back-btn:hover {
+    background: #e65100;
+}
+
+body.theme-green {
+    background-color: #e8f5e9;
+}
+
+body.theme-green h1,
+body.theme-green h2 {
+    color: #2e7d32;
+}
+
+body.theme-green h1 {
+    border-bottom-color: #2e7d32;
+}
+
+body.theme-green .info-box {
+    background: #e8f5e9;
+    border-left-color: #2e7d32;
+}
+
+body.theme-green .info-box strong {
+    color: #2e7d32;
+}
+
+body.theme-green .back-btn {
+    background: #2e7d32;
+}
+
+body.theme-green .back-btn:hover {
+    background: #1b5e20;
+}
+
+body.theme-red {
+    background-color: #ffebee;
+}
+
+body.theme-red h1,
+body.theme-red h2 {
+    color: #c62828;
+}
+
+body.theme-red h1 {
+    border-bottom-color: #c62828;
+}
+
+body.theme-red .info-box {
+    background: #ffebee;
+    border-left-color: #c62828;
+}
+
+body.theme-red .info-box strong {
+    color: #c62828;
+}
+
+body.theme-red .back-btn {
+    background: #c62828;
+}
+
+body.theme-red .back-btn:hover {
+    background: #b71c1c;
+}
+
+body.theme-purple {
+    background-color: #f3e5f5;
+}
+
+body.theme-purple h1,
+body.theme-purple h2 {
+    color: #7b1fa2;
+}
+
+body.theme-purple h1 {
+    border-bottom-color: #7b1fa2;
+}
+
+body.theme-purple .info-box {
+    background: #f3e5f5;
+    border-left-color: #7b1fa2;
+}
+
+body.theme-purple .info-box strong {
+    color: #7b1fa2;
+}
+
+body.theme-purple .back-btn {
+    background: #7b1fa2;
+}
+
+body.theme-purple .back-btn:hover {
+    background: #6a1b9a;
+}
+
+body.theme-teal {
+    background-color: #e0f2f1;
+}
+
+body.theme-teal h1,
+body.theme-teal h2 {
+    color: #00695c;
+}
+
+body.theme-teal h1 {
+    border-bottom-color: #00695c;
+}
+
+body.theme-teal .info-box {
+    background: #e0f2f1;
+    border-left-color: #00695c;
+}
+
+body.theme-teal .info-box strong {
+    color: #00695c;
+}
+
+body.theme-teal .back-btn {
+    background: #00695c;
+}
+
+body.theme-teal .back-btn:hover {
+    background: #004d40;
+}
+
+body.theme-indigo {
+    background-color: #e8eaf6;
+}
+
+body.theme-indigo h1,
+body.theme-indigo h2 {
+    color: #283593;
+}
+
+body.theme-indigo h1 {
+    border-bottom-color: #283593;
+}
+
+body.theme-indigo .info-box {
+    background: #e8eaf6;
+    border-left-color: #283593;
+}
+
+body.theme-indigo .info-box strong {
+    color: #283593;
+}
+
+body.theme-indigo .back-btn {
+    background: #283593;
+}
+
+body.theme-indigo .back-btn:hover {
+    background: #1a237e;
+}
