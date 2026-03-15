@@ -1,67 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регионы России - Интерактивная карта</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>🗺️ Регионы России</h1>
-        <p>Откройте для себя культуру, природу и особенности каждого региона</p>
-    </header>
-
-    <div class="container">
-        <div class="title-section">
-            <h2>Выберите регион для изучения</h2>
-        </div>
-
-        <div class="regions-grid">
-            <a href="moskva.html" class="region-card">
-                <h3>Москва</h3>
-            </a>
-
-            <a href="sankt-peterburg.html" class="region-card">
-                <h3>Санкт-Петербург</h3>
-            </a>
-
-            <a href="tatarstan.html" class="region-card">
-                <h3>Республика Татарстан</h3>
-            </a>
-
-            <a href="krasnoyarsk.html" class="region-card">
-                <h3>Красноярский край</h3>
-            </a>
-
-            <a href="bashkortostan.html" class="region-card">
-                <h3>Республика Башкортостан</h3>
-            </a>
-
-            <a href="sverdlovsk.html" class="region-card">
-                <h3>Свердловская область</h3>
-            </a>
-
-            <a href="primorsky.html" class="region-card">
-                <h3>Приморский край</h3>
-            </a>
-
-            <a href="rostov.html" class="region-card">
-                <h3>Ростовская область</h3>
-            </a>
-
-            <a href="kaliningrad.html" class="region-card">
-                <h3>Калининградская область</h3>
-            </a>
-
-            <a href="krasnodar.html" class="region-card">
-                <h3>Краснодарский край</h3>
-            </a>
-        </div>
-    </div>
-
-    <footer>
-        <p>Интерактивная карта регионов России © 2025</p>
-    </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Карта России - Интерактивное приложение</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+      integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
