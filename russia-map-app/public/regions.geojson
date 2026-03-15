@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moscow",
+        "name": "Москва",
+        "population": 13149803,
+        "area": 2561,
+        "description": "Столица России, крупнейший город страны"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.6173, 55.7558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "saint-petersburg",
+        "name": "Санкт-Петербург",
+        "population": 5601911,
+        "area": 1439,
+        "description": "Культурная столица России"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.3351, 59.9343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kazan",
+        "name": "Казань",
+        "population": 1308660,
+        "area": 425,
+        "description": "Столица Республики Татарстан"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.0661, 55.8304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yekaterinburg",
+        "name": "Екатеринбург",
+        "population": 1544376,
+        "area": 468,
+        "description": "Административный центр Урала"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.6057, 56.8389]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "novosibirsk",
+        "name": "Новосибирск",
+        "population": 1635338,
+        "area": 505,
+        "description": "Крупнейший город Сибири"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.9357, 55.0084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vladivostok",
+        "name": "Владивосток",
+        "population": 606589,
+        "area": 331,
+        "description": "Порт на Тихом океане"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.8735, 43.1056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sochi",
+        "name": "Сочи",
+        "population": 466078,
+        "area": 176,
+        "description": "Курортный город на Черноморском побережье"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.7342, 43.6028]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kaliningrad",
+        "name": "Калининград",
+        "population": 489735,
+        "area": 224,
+        "description": "Самый западный областной центр России"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.4522, 54.7104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "irkutsk",
+        "name": "Иркутск",
+        "population": 623736,
+        "area": 277,
+        "description": "Административный центр Иркутской области"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.2964, 52.2977]
+      }
+    }
+  ]
+}
