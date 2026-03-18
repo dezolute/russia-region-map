@@ -13,8 +13,6 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  ImageList,
-  ImageListItem,
   Divider,
   Paper,
 } from '@mui/material';
@@ -412,26 +410,6 @@ const RegionPage = () => {
           </CardContent>
         </Card>
       )}
-
-      {/* Фотогалерея */}
-      <Box sx={{ mt: 4 }}>
-        <Typography variant="h5" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-          📸 Фотогалерея
-        </Typography>
-        <ImageList sx={{ width: '100%', height: 400 }} cols={3} rowHeight={200}>
-          {region.images.map((image, index) => (
-            <ImageListItem key={index}>
-              <img
-                src={`${image}?w=248&fit=crop&auto=format`}
-                srcSet={`${image}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                alt={`${region.name} ${index + 1}`}
-                loading="lazy"
-                style={{ objectFit: 'cover', height: '100%' }}
-              />
-            </ImageListItem>
-          ))}
-        </ImageList>
-      </Box>
     </Container>
   );
 };

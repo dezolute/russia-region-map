@@ -36,7 +36,7 @@ const HomePage = () => {
       </Box>
 
       <Box sx={{ mb: 5 }}>
-        <RegionMap enableScrollZoom={true} />
+        <RegionMap enableScrollZoom={false} />
       </Box>
 
 
